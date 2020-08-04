@@ -1,0 +1,17 @@
+<body>
+    <div style="text-align:center">
+        <h1>
+          <marquee>
+          Welcome to Seasonal Trip Planner!!
+          </marquee>
+        </h1>
+      </div>    
+<div class="register_container">
+<h6>REGISTRATION</h6>
+<!--form #regForm = "ngForm" (ngSubmit) = "regEmp(regForm.value)"></form-->
+  <input type = "text"  placeholder="Email Address" [(ngModel)]="user.eMail"/><br/>
+  <input type = "password"  placeholder="Password" [(ngModel)]="user.password"/><br/>
+  <input type = "text"  placeholder="Name" [(ngModel)]="user.userName"/><br/>
+  <button (click) = "regEmp()" class="btn btn-primary" >Register</button>
+  </div>
+</body>

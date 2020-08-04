@@ -1,0 +1,45 @@
+
+body{
+    background-image: linear-gradient(to right,#44318d,#c3073f);
+    height: 670px;
+}.register_container{
+    width: 530px;
+    height: auto;
+    margin-left: 500px;
+    font-size: 17px;
+    margin-top: 28px;
+}
+.register_container input{
+    margin-bottom: 28px;
+    width: 412px;
+    height: 41px;
+    border-radius: 25px;
+    border: 1.2px solid #948c8c;
+    padding: 12px;
+}
+.register_container input:focus{
+    outline:none;
+    background-color:white;
+    color:#333;
+}
+.register_container h6{
+    margin-bottom: 18px;
+    margin-left: 144px;
+    font-size: 20px;
+    color: black;
+}
+.register_container button{
+    background-color:#9a26a9;
+    margin-left: 316px;
+    margin-top: 20px;
+    border-radius: 20px;
+    width: 96px;
+}
+body{
+    background-image: linear-gradient(to right,#44318d,#c3073f);
+
+}
+marquee{
+    font-family: 'Kaushan Script', cursive;
+    font-size:76px;
+}

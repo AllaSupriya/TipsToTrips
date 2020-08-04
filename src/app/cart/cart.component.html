@@ -1,0 +1,13 @@
+<div *ngFor = "let p1 of cartproducts">
+  <div class = 'place'>
+      <h4>{{p1.pname}}</h4><br/>
+      <img src = "{{p1.imagepath}}" style = "width:800px;height:400px"><br/>
+      <div class = 'descrip' style="text-align:center">
+      <h5><p>{{p1.description}}</p></h5><br/>
+      </div>
+      <h4>Price Per Adult:</h4><h5>{{p1.price}}</h5><br/>
+  </div>
+  <div class="col">
+      <div><button class="btn" (click)="removeFromCart(p)">Remove</button></div><br/>
+  </div>
+</div>   

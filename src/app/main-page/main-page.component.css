@@ -1,0 +1,135 @@
+.container img{
+    opacity: 0.8;
+    margin-left: -232px;
+    width:1547px;
+}
+.month_options{
+    position: absolute;
+    margin-top: -850px;
+    margin-left: 300px;
+}
+.part1 button{
+    width: 150px;
+    height: 50px;
+    background-image: linear-gradient(to left,#fbfb0c,#fb2424);
+    border: none;
+    border-radius: 28px;
+    margin-top: 150px;
+}
+.part1_part2 button{
+    width: 150px;
+    height: 48px;
+    background-image: linear-gradient(to left,#fbfb0c,#fb2424);
+    border: none;
+    border-radius: 28px;
+    margin-top: 15px;
+}
+.tour h1{
+    position: absolute;
+    margin-top: -875px;
+    width: 736px;
+    margin-left: 512px;
+    font-size: 63px;
+}
+.tour h3{
+    position: absolute;
+    margin-top: -820px;
+    width: 736px;
+    margin-left: 480px;
+    font-size: 33px;
+}
+.info{
+    position: absolute;
+    margin-top: -600px;
+    width: 736px;
+    margin-left: 400px;
+}
+.statesinfo{
+    position: absolute;
+    margin-top: -500px;
+    width: 900px;
+    margin-left:300px;
+}
+.keralainfo{
+    position: absolute;
+    width: 760px;
+    margin-left: 100px;
+}
+.keralastates{
+    position: absolute;
+    margin-top: -400px;
+    margin-left: 300px;
+    width: 850px;
+}
+.keralastates img{
+    position: absolute;
+    width: 638px;
+    margin-left: 40px;
+}
+.gaoinfo{
+    position: absolute;
+    width: 760px;
+    margin-left: 100px;
+}
+.gaostates{
+    position: absolute;
+    margin-top: 120px;
+    margin-left: 300px;
+    width: 850px;
+}
+.gaostates img{
+    position: absolute;
+    width: 638px;
+    margin-left: 40px;
+}
+.jkinfo{
+    position: absolute;
+    width: 760px;
+    margin-left: 100px;
+}
+.jkstates{
+    position: absolute;
+    margin-top: 800px;
+    margin-left: 300px;
+    width: 850px;
+}
+.jkstates img{
+    position: absolute;
+    width: 638px;
+    margin-left: 40px;
+}
+.upinfo{
+    position: absolute;
+    width: 760px;
+    margin-left: 100px;
+}
+.upstates{
+    position: absolute;
+    margin-top: 1360px;
+    margin-left: 300px;
+    width: 850px;
+}
+.upstates img{
+    position: absolute;
+    width: 638px;
+    margin-left: 40px;
+}
+.rajasthaninfo{
+    position: absolute;
+    width: 760px;
+    margin-left: 100px;
+}
+.rajasthanstates{
+    position: absolute;
+    margin-top: 2000px;
+    margin-left: 300px;
+    width: 850px;
+}
+.rajasthanstates img{
+    position: absolute;
+    width: 638px;
+    margin-left: 40px;
+}
+.bottom{
+    background-image: linear-gradient(to right,#2bf967d1,#f55112);
+}

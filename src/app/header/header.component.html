@@ -1,0 +1,26 @@
+
+<style>
+  @import url("https://fonts.googleapis.com/css?family=Pacifico&display=swap");
+  </style>
+  
+  <nav class="navbar navbar-expand-lg navbar-dark sticky-top bg-primary">
+    <img src="assets/logo.jpg">
+    <span class="logo"><h3>Tips2Trips</h3></span>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarColor01">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" routerLink="login">Login<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink ="register">Register</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="cart">Cart {{products.length}}</a>
+      </li>
+      </ul>
+      <button (click) = "LogOut()" class="btn btn-primary">LogOut</button><br/>
+    </div>
+  </nav>

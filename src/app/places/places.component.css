@@ -1,0 +1,22 @@
+.text{
+    text-align: center;
+}
+.place{
+    text-align: center;
+}
+.btn {
+    margin-left: 640px;
+    background-image: linear-gradient(to left,#d406f1,#433d46);
+    border-radius: 28px;
+    height: 47px;
+    width: 200px;
+    color: white;
+    font-size: 18px;
+}
+.descrip{
+    margin-top:27px;
+    font-family: 'Kaushan Script', cursive;
+    font-size:15px;
+    margin-left: 269px;
+    margin-right: 268px;
+}

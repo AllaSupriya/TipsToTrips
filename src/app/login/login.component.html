@@ -1,0 +1,27 @@
+<body>
+  <div style="text-align:center">
+    <h1>
+      <marquee>
+        Welcome to Seasonal Trip Planner!!
+      </marquee>
+    </h1>
+  </div>    
+<div class="login_container">
+    <h6>LOGIN</h6>
+     <!--<input type ="text"[(ngModel)] ="user.loginId" placeholder="User Name/Email Address"><br/>
+     <input type ="password"[(ngModel)]="user.password" placeholder="Password"><br/>
+    <button (click) = "showUser()" class="btn btn-primary">Login</button><br/-->
+    <form #loginForm="ngForm" (ngSubmit)="validateUser(loginForm.value)" novalidate>
+      <input type="text" name="userName" placeholder="User Name/Email Address" ngModel #userName="ngModel" required ><br/>
+      <input type="password" name="password" placeholder="Password" ngModel #password="ngModel" 
+      required minlength="4" maxlength="15"><br/>
+      <button [disabled]="!loginForm.valid"class="btn btn-primary">Login</button>
+      </form>
+      <div *ngIf="loginForm.invalid && (loginForm.dirty || loginForm.touhed)">invalid error occurred</div>
+      <div class="text-danger">
+      <div *ngIf="userName.errors?.required">Please enter User Name..</div>
+      <div *ngIf="password.errors?.minlength">Please enter 4 characters..</div>
+      <div *ngIf="password.errors?.required">Please enter password..</div> 
+      </div>
+</div>
+</body>

@@ -1,0 +1,54 @@
+<div>
+  <div class="container">
+    <h2 class = "text-left">Kerala:</h2>
+  </div>
+  <div *ngFor = "let janu of keralaimage" style="margin-top: 130px" >
+    <div class = "col-md-3" style = "float:left;">
+      <img src = "{{janu.imagepath}}" style = "width: 392px;height:260px;">
+    </div>
+  </div>
+</div>
+
+<div>
+  <div class="container">
+    <h2 class = "left1">Andaman and Nicobar Islands:</h2>
+  </div>
+  <div *ngFor = "let janu of an" style="margin-top: 132px;" >
+    <div class = "col-md-3" style = "float:left;">
+      <img src = "{{janu.imagepath}}" style = "width: 392px;height:260px;">
+    </div>
+  </div>
+</div>
+
+<div>
+  <div class="container">
+    <h2 class = "left2">Goa:</h2>
+  </div>
+  <div *ngFor = "let janu of goa" style="margin-top: 136px" >
+    <div class = "col-md-3" style = "float:left;">
+      <img src = "{{janu.imagepath}}" style = "width: 392px;height:260px;">
+    </div>
+  </div>
+</div>
+    
+<div *ngFor="let city of city">
+  <div><button class="btn" (click) = "showPlaces()">{{city.cityName}}</button></div>
+    </div>
+    
+    <!--ol *ngOf = "let city of city"></ol>
+  <p *ngIf = "city.monthName == January"></p>
+    <div class="row offset-md-1" style="margin-top: 130px">
+      <div class="col-md-3" *ngFor = "let janu of janimage">
+        <img class="card-img-top" [src]="janu.imagepath" alt="Card image cap">
+      </div>
+    </div>
+    <div class="row offset-md-2">
+      <div class="col-md-4" *ngFor="let city of city">
+        <div><button class="btn">{{city.cityName}}</button></div>
+      </div>
+    </div>
+    <div class="row offset-md-1" style="margin-top: 130px">
+      <div class="col-md-3" *ngFor = "let janu of janimage">
+        <img class="card-img-top" [src]="janu.imagepath" alt="Card image cap">
+      </div>
+    </div-->
